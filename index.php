@@ -47,7 +47,7 @@
                             <li class="scroll"><a href="#produtos">Top 20</a></li>
                             <!--<li class="scroll"><a href="#services">Services</a></li>-->
                             <!--<li class="scroll"><a href="#pricing">Pricing</a></li>-->
-                            <li class="scroll"><a href="#sobre">Sobre</a></li>
+                            <li class="scroll"><a href="#sobre">Quem somos</a></li>
                             <li class="scroll"><a href="#contact">Contato</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
