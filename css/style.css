@@ -12,7 +12,7 @@ Primary use:	App Landing Page
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
 /*---------------General style---------------*/
 a:hover, a:focus{
-    text-decoration:none;
+    /*text-decoration:none;*/
 }
 body{
     background:#ffffff;
@@ -536,8 +536,12 @@ textarea.form-control{
     margin-right: 16%;
 }
 
-i.fa-heart{
+i.fa-heart, fa-angle-double-right{
+    
+}
+i.ver-mais{
     color: #FD14A4;
+    cursor: pointer;
 }
 
 .jx-contact-info ul {
@@ -709,9 +713,16 @@ footer{
     .video-sec{
         padding:7em 0 6em 0;
     }
-    .img-responsive.imack{
-        max-width:112%;
+    .img-responsive{
+        width:300px;
+        height: 300px;
+        padding: 20px
     }
+    
+    .img-responsive.imack{
+        width:112%;
+    }
+    
     h1{
         font-size:48px;
         line-height:52px;
