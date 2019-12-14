@@ -101,7 +101,7 @@
                                                 </div>
                                                 <div class="col-xs-12">
                                                     <div id="success"></div>
-                                                    <button type="submit" class="btn btn-success btn-caption submit">Cadastrar</button>
+                                                    <button type="submit" class="btn btn-success btn-caption btn-cadastro submit">Cadastrar</button>
                                                 </div>
                                             </form>
                                         </div>
@@ -156,141 +156,149 @@
                 <div class="container">
                     <div class="row">
                         <div class="row-heading">
-                            <h2>Sobre a <span>Gloss</span>Makeup</h2>
-                            <p>Preciso de um texto para colocar aqui, falar um pouco sobre a loja.</p>
-                        </div>
-                    </div>
+                            <h2>Sobre a <span >Gloss</span> <span class="font-black">Makeup</span></h2>
+                            <p>A Gloss Makeup nasceu de um sonho em 2019 com o intuito de satisfazer todas as clientes com os melhores produtos, prazo de entrega, atendimento e o melhor, PREÇO ÚNICO. 
+                                Desde então a gente tenta ser a loja de maquiagem que você sempre sonhou em encontrar. <i class="fa fa-heart"></i>
+                            </p><p>                                
+                            <h2>Missão</h2> 
+                        </p><p> 
 
+                        A nossa missão é levar maquiagem com qualidade e o melhor, preço único até você com todo amor em forma de caixinha.
+
+                        Seja muito bem vinda a nossa loja! <i class="fa fa-heart"></i></p>
                 </div>
-            </section>
-            <!--.End app sreen-->
+            </div>
 
-            <!-- contact form-->
-            <section class="contact dark" id="contact">
-                <div class="row">
-                    <div class="row-heading">
-                        <h2>Entre em <span>Contato</span></h2>
-                        <p>Retornaremos o mais breve possível</p>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="col-md-10 col-sm-12 col-md-offset-1">
-                        <div class="row contact-form">
-                            <form name="sentMessage" id="contactForm" novalidate>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Please enter your name.">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="tel" class="form-control" placeholder="Telefone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Assunto *" id="subject">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" placeholder="Sua Mensagem *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div id="success"></div>
-                                    <button type="submit" class="btn btn-success btn-caption submit">Enviar Mensagem</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>	
-                </div>
-            </section>
-            <!--./End contact form-->
-
-            <!-- footer -->
-            <footer>
-                <div class="container">
-                    <div class="footer-widget">
-                        <div class="footer-social">
-                            <ul class="footer-social-pro">
-                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <!--<li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-                                <!--<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-                                <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li class="whatsapp"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                                <!--<li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
-                            </ul>
-                        </div>
-                        <div class="footer-widget">
-                            <ul class="footer-navi">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#produtos">Produtos</a></li>
-                                <li><a href="#sobre">Sobre</a></li>
-                                <li><a href="#contact">Contato</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-widget-copy">
-                            <p>Copyright@ <?php echo date('Y') ?> Desenovlvido por <a href="https://mdmarketindigital.com.br">MD Marketing digital</a></p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
-            <!-- Video Popup -->
-            <div class="modal fade" id="my-video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/JNF0moyNw_A" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>   
-            <!-- Video Popup --> 
-
-
-
-            <!-- START JAVASCRIPT -->
-            <!-- Placed at the end of the document so the pages load faster -->
-            <script type="text/javascript" src="js/jquery.min.js"></script>
-            <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <!-- Place this tag in your head or just before your close body tag. -->
-            <!-- contact js-->
-            <script src="js/jqBootstrapValidation.js"></script>
-            <script src="js/contact_me.js"></script>
-
-            <script async="" defer="" src="js/buttons.js"></script>
-            <script src="js/bootsnav.js"></script>
-            <script src="js/custom.js"></script>
-
-            <script type="text/javascript">
-                $('.navbar-nav a').click(function () {
-                    $('html, body').animate({
-                        scrollTop: $($(this).attr('href')).offset().top
-                    }, 800);
-                    return false;
-                });
-            </script>
-            <script type="text/javascript">
-                $('.footer-navi a').click(function () {
-                    $('html, body').animate({
-                        scrollTop: $($(this).attr('href')).offset().top
-                    }, 800);
-                    return false;
-                });
-            </script>
         </div>
-    </body>
+    </section>
+    <!--.End app sreen-->
+
+    <!-- contact form-->
+    <section class="contact dark" id="contact">
+        <div class="row">
+            <div class="row-heading">
+                <h2>Entre em <span>Contato</span></h2>
+                <p>Retornaremos o mais breve possível</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-10 col-sm-12 col-md-offset-1">
+                <div class="row contact-form">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="tel" class="form-control" placeholder="Telefone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Assunto *" id="subject">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Sua Mensagem *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div id="success"></div>
+                        <button type="submit" class="btn btn-success btn-caption btn-contact submit pull-right">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>	
+        </div>
+    </section>
+    <!--./End contact form-->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-widget">
+                <div class="footer-social">
+                    <ul class="footer-social-pro">
+                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <!--<li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                        <!--<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                        <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li class="whatsapp"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                        <!--<li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <ul class="footer-navi">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget-copy">
+                    <p>Copyright@ <?php echo date('Y') ?> Desenovlvido por <a href="https://mdmarketindigital.com.br">MD Marketing digital</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Popup -->
+    <div class="modal fade" id="my-video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/JNF0moyNw_A" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <!-- Video Popup --> 
+
+
+
+    <!-- START JAVASCRIPT -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <!-- contact js-->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <script async="" defer="" src="js/buttons.js"></script>
+    <script src="js/bootsnav.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script type="text/javascript">
+        $('.navbar-nav a').click(function () {
+            $('html, body').animate({
+                scrollTop: $($(this).attr('href')).offset().top
+            }, 800);
+            return false;
+        });
+    </script>
+    <script type="text/javascript">
+        $('.footer-navi a').click(function () {
+            $('html, body').animate({
+                scrollTop: $($(this).attr('href')).offset().top
+            }, 800);
+            return false;
+        });
+    </script>
+</div>
+</body>
 </html>
