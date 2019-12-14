@@ -536,8 +536,8 @@ textarea.form-control{
     margin-right: 16%;
 }
 
-i.fa-heart, fa-angle-double-right{
-    
+i.fa-heart {
+    color: #FD14A4;
 }
 i.ver-mais{
     color: #FD14A4;
