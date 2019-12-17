@@ -45,9 +45,7 @@
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" id="my-navigation" data-in="fadeInDown" data-out="fadeOutUp">
                             <li  class="scroll"><a href="#home">Home</a></li>
-                            <li class="scroll"><a href="#produtos">Top 20</a></li>
-                            <!--<li class="scroll"><a href="#services">Services</a></li>-->
-                            <!--<li class="scroll"><a href="#pricing">Pricing</a></li>-->
+                            <li class="scroll"><a href="#produtos">Top 10</a></li>
                             <li class="scroll"><a href="#sobre">Quem somos</a></li>
                             <li class="scroll"><a href="#contact">Contato</a></li>
                         </ul>
@@ -66,8 +64,9 @@
                             <section class="contact dark" id="Contato">
                                 <div class="row">
                                     <div class="row-heading">
-                                        <h2>Se Cadastre <span>Aqui!</span></h2>
-                                        <p>Ganhe desconto em sua primeira compra!</p>
+                                        <h2>Cadastre-se <span>Aqui!</span></h2>
+                                        <p> Para receber mais informações via e-mail e sms
+                                            Ganhe desconto em sua primeira compra!</p>
                                     </div>
                                 </div>
                                 <div class="container">
@@ -79,8 +78,7 @@
                                                         <input type="text" class="form-control" placeholder="Seu nome *" id="name" required data-validation-required-message="Please enter your name.">
                                                         <p class="help-block text-danger"></p>
                                                     </div>
-                                                </div>
-
+                                                </div>    
                                                 <div class="col-sm-10">
                                                     <div class="form-group">
                                                         <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Please enter your email address.">
@@ -102,7 +100,7 @@
                                                 </div>
                                                 <div class="col-xs-12">
                                                     <div id="success"></div>
-                                                    <button type="submit" class="btn btn-success btn-caption btn-cadastro submit">Cadastrar</button>
+                                                    <button type="submit" class="btn btn-success btn-caption btn-cadastro submit">Enviar Cadastro</button>
                                                 </div>
                                             </form>
                                         </div>
@@ -114,10 +112,24 @@
                         <div class="col-md-7 col-sm-12 banner-text hidden-sm hidden-xs">
                             <h1>No lançamento do nosso site.</h1>
                             <h1>&nbsp;</h1>
-                            <h1>Faça seu cadastro, ganhe descontos e venha nos visitar.</h1>
+                            <h1>Faça seu cadastro, ganhe descontos e venha nos visitar em nossa loja fisica.</h1>
                         </div>
+                        <div>
+                                                <ul class="footer-social-pro">
+                    <li class="facebook"><a href="https://www.facebook.com/glossmakeupbr/"><i class="fa fa-facebook"></i></a></li>
+                    <!--<li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                    <!--<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                    <li class="instagram"><a href="https://www.instagram.com/glossmakeupbr/?hl=pt-br"><i class="fa fa-instagram"></i></a></li>
+                    <li class="whatsapp"><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5514997408549"><i class="fa fa-whatsapp"></i></a></li>
+                    <!--<li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+                    <li class="marker"><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5514997408549"><i class="fa fa-map-marker"></i></a></li>
+
+                </ul>
+                                                </div>
+                                                <h5><p>Endereço Loja fisica : Praça Coronel Cardoso Frango 1A, Piratininga - Sp</p></h5>
                     </div>
                 </div>
+                
             </div>
 
             <?php include 'dados_produtos.php'; ?>
@@ -127,14 +139,14 @@
                         <div class="MS-content">
                             <?php 
                             foreach ($produtos as $produto) {
-                            extract($produto);
+                                extract($produto);
                             ?>
                             <div class="item">
                                 <div class="imgTitle">
-                                    <h2 class="blogTitle"><?php echo $titulo ?></h2>
+                                    <h4 class="blogTitle"><?php echo $titulo ?></h4>
                                     <img src="img/produtos/<?php echo $img ?>" class="tamanho-img" alt="<?php echo $titulo ?>" />
                                 </div>
-                                <p><?php echo substr($descricao , 0, 100)?>...<a href="produto.php"><i class="ver-mais">ver mais<i class="fa fa-angle-double-right"></i></i></a></p>
+                                <?php echo substr($descricao , 0, 60)?>...<a href="produto.php"><i class="ver-mais">Ver mais<i class="fa fa-angle-double-right"></i></i></a>
                             </div>
                             <?php 
                             }
@@ -231,11 +243,11 @@
         <div class="footer-widget">
             <div class="footer-social">
                 <ul class="footer-social-pro">
-                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/glossmakeupbr/"><i class="fa fa-facebook"></i></a></li>
                     <!--<li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
                     <!--<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-                    <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li class="whatsapp"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/glossmakeupbr/?hl=pt-br"><i class="fa fa-instagram"></i></a></li>
+                    <li class="whatsapp"><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5514997408549"><i class="fa fa-whatsapp"></i></a></li>
                     <!--<li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
                 </ul>
             </div>
@@ -248,7 +260,8 @@
                 </ul>
             </div>
             <div class="footer-widget-copy">
-                <p>Copyright@ <?php echo date('Y') ?> Desenovlvido por <a href="https://mdmarketindigital.com.br">MD Marketing digital</a></p>
+                <p>Copyright@ <?php echo date('Y') ?> Desenvolvido por <a href="htt￼ps://mdmarketindigital.com.br">MD Marketing digital</a></p>
+                <p>Endereço Loja fisica : Praça Coronel Cardoso Frango 1A, Piratininga - Sp</p>
             </div>
         </div>
     </div>
