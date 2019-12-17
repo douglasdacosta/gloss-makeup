@@ -49,11 +49,7 @@ Benefícios
     [
         'titulo' => 'Fixador De Maquiagem - Ruby Rose',
         'img' => 'img7.jpeg',
-        'descricao' => 'O Fixador de Maquiagem da Ruby Rose 
-Quer ter uma make impecavel até o fim do dia? Aposte no fixador de maquiagem.
-ele foi desenvolvido especialmente para prolongar a duração da make. 
-O produto possui secagem rápida fazendo com que a pele não fique úmida. Ao aplicar, o fixador não irá molhar o rosto e nem borrar a sua make, além disso possui um cheirinho suave e agradável. 
-
+        'descricao' => 'O Fixador de Maquiagem da Ruby Rose  Quer ter uma make impecavel até o fim do dia? Aposte no fixador de maquiagem. ele foi desenvolvido especialmente para prolongar a duração da make.  O produto possui secagem rápida fazendo com que a pele não fique úmida. Ao aplicar, o fixador não irá molhar o rosto e nem borrar a sua make, além disso possui um cheirinho suave e agradável. 
 Indicado
 Para todos os tipos de pele.
 
@@ -75,7 +71,7 @@ Benefícios
         'descricao' => 'A Máscara para Cílios Power Volume, foi criada especialmente dar volume e maior visibilidade para os seus cílios, com seu exclusivo aplicador ela irá proporcionar um acabamento surpreendente e natural.'
     ],
     [
-        'titulo' => 'siliconado luisance',
+        'titulo' => 'Siliconado Luisance',
         'img' => 'img10.jpeg',
         'descricao' => 'Chegou a hora de fazer aquela maquiagem maravilhosa. Mas antes de começar vamos ao mais importante: Preparar a pele!
 
