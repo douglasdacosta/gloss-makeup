@@ -117,14 +117,14 @@ Banner Style Start
     right:0;
     display:block;
     content:"";
-    background:rgba(12,15,18,0.5)
+    background:rgba(12,15,18,0.2)
 }
 .banner-text{
     margin-top:3%;
     text-align: justify;
 }
 .banner h1{
-    color:#ffffff;
+    color:#ff569c;
     text-align:left;
     /*text-align: justify;*/
     text-shadow:none;
@@ -676,6 +676,12 @@ footer{
 }
 .footer-social-pro li.whatsapp a i{
     background:#449d44;
+}
+.footer-social-pro li.marker a{
+    background:#e6f702;
+}
+.footer-social-pro li.marker a i{
+    background:#e6f702
 }
 .footer-social-pro li.pinterest a{
     background:#c12123;
