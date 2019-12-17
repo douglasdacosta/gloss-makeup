@@ -44,11 +44,8 @@
                     <!-- Begin: Navbar Section -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" id="my-navigation" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li  class="active scroll"><a href="#home">Home</a></li>
-                            <li class="scroll"><a href="#produtos">Produtos</a></li>
+                            <li  class="scroll"><a href="#home">Home</a></li>
                             <li class="scroll"><a href="#produtos">Top 10</a></li>
-                            <!--<li class="scroll"><a href="#services">Services</a></li>-->
-                            <!--<li class="scroll"><a href="#pricing">Pricing</a></li>-->
                             <li class="scroll"><a href="#sobre">Quem somos</a></li>
                             <li class="scroll"><a href="#contact">Contato</a></li>
                         </ul>
