@@ -118,20 +118,33 @@ Banner Style Start
     right:0;
     display:block;
     content:"";
-    background:rgba(12,15,18,0.2)
+    background:rgba(12,15,18,0.5)
 }
 .banner-text{
     margin-top:3%;
-    text-align: justify;
+    text-align: center;
 }
 .banner h1{
     color:#ff569c;
-    text-align:left;
-    /*text-align: justify;*/
+    /*text-align:left;*/
+    text-align: center;
     text-shadow:none;
     font-family: 'Montserrat', sans-serif;
     font-weight:600;
     line-height:1.3;
+}
+.banner h5{
+    color:#FFFFFF;
+    /*text-align:left;*/
+    /*padding-top: 10px;*/
+    text-align: center;
+    /*text-shadow:none;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    line-height:1.3;
+}
+.banner h5 p{
+    color:#FFFFFF;
 }
 .banner img{
     float:left;
@@ -679,10 +692,10 @@ footer{
     background:#449d44;
 }
 .footer-social-pro li.marker a{
-    background:#e6f702;
+    background:#c12123;
 }
 .footer-social-pro li.marker a i{
-    background:#e6f702
+    background:#c12123;
 }
 .footer-social-pro li.pinterest a{
     background:#c12123;
@@ -714,6 +727,10 @@ footer{
     color: #000000;
 }
 
+.detalhes{
+    padding-top: 14px;
+}
+
 /*-----------------Responsiveness Start-------------------*/
 
 @media only screen and (min-width: 768px)  {
@@ -725,11 +742,11 @@ footer{
         height: 300px;
         padding: 20px
     }
-    
+
     .img-responsive.imack{
         width:112%;
     }
-    
+
     h1{
         font-size:48px;
         line-height:52px;
@@ -765,15 +782,20 @@ footer{
 
 }
 @media (max-width: 992px) {
-/*    nav.navbar .navbar-brand img.logo {
-        width: 106px;
-    }*/
+    .btn-caption.btn-contact {
+        margin-right: 35%;
+    }
+    
     nav.navbar.bootsnav .navbar-toggle {
         background: transparent !important;
         color: #000000;
     }
 }
 @media (max-width: 768px) {
+    .footer-social-pro{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .banner {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -788,5 +810,17 @@ footer{
         padding: 0;
         margin: 0 -15px;
     }
+}
+@media (max-width: 400px) {
+    .btn-caption.btn-contact {
+        margin-right: 18%;
+    }
 
+    .btn-caption.submit {
+        margin-left: 6%;
+    }
+
+    .footer-navi{
+        font-size:13px;
+    }
 }
