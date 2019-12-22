@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <?php
-    define('HOST', '/glossMakeup/');
+    $HOST = '/glossMakeup/';
 ?>
 <html class="no-js" lang="en"><!--<![endif]-->
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154870734-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-154870734-1');
+        </script>
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,19 +57,17 @@
                     <!-- Begin: Navbar Section -->
                     <?php
                             $array_uri = explode('/', $_SERVER['SCRIPT_NAME'].'/');
-                            $nova_uri = '';
-                            $array_uri = array_shift($array_uri);
-                            if (!in_array('index.php', $array_uri)) {
-                                
+                            if (in_array('index.php', $array_uri)) {
+                                $HOST = '';
                             }
                             ?>
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" id="my-navigation" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li  class="scroll"><a href="<?php echo HOST ?>#home">Home</a></li>
-                            <li class="scroll"><a href="<?php echo HOST ?>#produtos">Top 10</a></li>
-                            <li class="scroll"><a href="<?php echo HOST ?>#sobre">Quem somos</a></li>
-                            <li class="scroll"><a href="<?php echo HOST ?>#contact">Contato</a></li>
-                            <li class="scroll"><a href="<?php echo HOST ?>loja.php">Loja</a></li>
+                            <li  class="scroll"><a href="<?php echo $HOST ?>#home">Home</a></li>
+                            <li class="scroll"><a href="<?php echo $HOST ?>#produtos">Top 10</a></li>
+                            <li class="scroll"><a href="<?php echo $HOST ?>#sobre">Quem somos</a></li>
+                            <li class="scroll"><a href="<?php echo $HOST ?>#contact">Contato</a></li>
+                            <li class="scroll"><a href="<?php echo $HOST ?>loja.php">Loja</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>   

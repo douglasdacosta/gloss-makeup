@@ -512,11 +512,13 @@
                     var scrollTop = $(window).scrollTop(),
                         $anchor = $(this).find('a'),
                         $section = $($anchor.attr('href')).offset().top,
+                        
                         $window = $(window).width(),
                         $minusDesktop = getNav.data("minus-value-desktop"),
                         $minusMobile = getNav.data("minus-value-mobile"),
                         $speed = getNav.data("speed");
-                    
+                    console.log($section);
+                    alert('aqui');
                     if( $window > 992 ){
                         var $position = $section - $minusDesktop;
                     }else{
