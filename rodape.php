@@ -21,7 +21,7 @@
             </div>
             <div class="footer-widget-copy">
                 <p>Endereço Loja fisica : Praça Coronel Cardoso Frango 1A, Piratininga - Sp</p>
-                <p>Copyright@ <?php echo date('Y') ?> Desenvolvido por <a href="htt￼ps://mdmarketindigital.com.br">MD Marketing digital</a></p>
+                <p>Copyright@ <?php echo date('Y') ?> Desenvolvido por <a href="https://www.mdmarketingdigital.com.br">MD Marketing digital</a></p>
             </div>
         </div>
     </div>

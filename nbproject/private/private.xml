@@ -4,11 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/var/www/html/gloss-makeup/index.php</file>
-            <file>file:/var/www/html/gloss-makeup/css/plugins.css</file>
-            <file>file:/var/www/html/gloss-makeup/js/jquery.min.js</file>
+            <file>file:/var/www/html/gloss-makeup/loja.php</file>
+            <file>file:/var/www/html/gloss-makeup/rodape.php</file>
+            <file>file:/var/www/html/gloss-makeup/topo.php</file>
             <file>file:/var/www/html/gloss-makeup/css/style.css</file>
-            <file>file:/var/www/html/gloss-makeup/css/overwrite.css</file>
-            <file>file:/var/www/html/gloss-makeup/js/custom.js</file>
         </group>
     </open-files>
 </project-private>
