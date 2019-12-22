@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-    define('HOST', '/glossMakeup/');
+    $HOST = '/glossMakeup/';
 ?>
 <html class="no-js" lang="en"><!--<![endif]-->
     <head>
@@ -47,19 +47,17 @@
                     <!-- Begin: Navbar Section -->
                     <?php
                             $array_uri = explode('/', $_SERVER['SCRIPT_NAME'].'/');
-                            $nova_uri = '';
-                            $array_uri = array_shift($array_uri);
-                            if (!in_array('index.php', $array_uri)) {
-                                
+                            if (in_array('index.php', $array_uri)) {
+                                $HOST = '';
                             }
                             ?>
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" id="my-navigation" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li  class="scroll"><a href="<?php echo HOST ?>#home">Home</a></li>
-                            <li class="scroll"><a href="<?php echo HOST ?>#produtos">Top 10</a></li>
-                            <li class="scroll"><a href="<?php echo HOST ?>#sobre">Quem somos</a></li>
-                            <li class="scroll"><a href="<?php echo HOST ?>#contact">Contato</a></li>
-                            <li class="scroll"><a href="<?php echo HOST ?>loja.php">Loja</a></li>
+                            <li  class="scroll"><a href="<?php echo $HOST ?>#home">Home</a></li>
+                            <li class="scroll"><a href="<?php echo $HOST ?>#produtos">Top 10</a></li>
+                            <li class="scroll"><a href="<?php echo $HOST ?>#sobre">Quem somos</a></li>
+                            <li class="scroll"><a href="<?php echo $HOST ?>#contact">Contato</a></li>
+                            <li class="scroll"><a href="<?php echo $HOST ?>loja.php">Loja</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>   

@@ -44,7 +44,6 @@
 <!-- START JAVASCRIPT -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/multislider.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <!-- Place this tag in your head or just before your close body tag. -->
