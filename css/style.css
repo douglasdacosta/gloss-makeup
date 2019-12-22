@@ -150,7 +150,10 @@ Banner Style Start
     float:left;
 }
 
-
+.engrenagens {
+    width: 30%;
+    height:  30%;
+}
 .download-btn {
     display: inline-block;
     float:left;
@@ -550,7 +553,7 @@ textarea.form-control{
     margin-right: 16%;
 }
 
-i.fa-heart {
+i.fa-heart, .rosa {
     color: #FD14A4;
 }
 i.ver-mais{
