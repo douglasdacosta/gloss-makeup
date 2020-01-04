@@ -20,33 +20,34 @@ include_once './topo.php';
                     <div class="container">
                         <div class="col-md-5 col-sm-12">
                             <div class="row contact-form">
-                                <form name="cadastroForm" id="cadastroForm" novalidate>
+                                <form name="cadastroForm" id="cadastroForm" action="cadastroEmail.php" method="POST" novalidate>
                                     <div class="col-sm-10">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Seu nome *" id="name" required data-validation-required-message="Please enter your name.">
+                                            <input type="text" class="form-control" placeholder="Seu nome *" id="nome" name="nome" required data-validation-required-message="Please enter your name.">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>    
                                     <div class="col-sm-10">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                            <input type="email" class="form-control" placeholder="Email *" id="email" name="email" required data-validation-required-message="Please enter your email address.">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
                                     <div class="col-sm-10">
                                         <div class="form-group">
-                                            <input type="tel" class="form-control" placeholder="Telefone (WhatsApp)*" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                            <input type="tel" class="form-control" placeholder="Telefone (WhatsApp)*" id="telefone" name="telefone" required data-validation-required-message="Please enter your phone number.">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
 
                                     <div class="col-sm-10">
                                         <div class="form-group">
-                                            <input type="text" class="form-control"  placeholder="Qual sua idade? *" id="subject">
+                                            <input type="text" class="form-control"  placeholder="Qual sua idade? *" name="idade" id="idade">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
                                     <div class="col-xs-12">
+                                    <p>Ao clicar no botão "Cadastrar" eu declaro que aceito as condições de Termos de Uso e Política de Privacidade</p>
                                         <div id="success"></div>
                                         <button type="submit" class="btn btn-success btn-caption btn-cadastro submit">Enviar Cadastro</button>
                                     </div>
