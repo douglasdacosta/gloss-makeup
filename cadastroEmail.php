@@ -2,8 +2,6 @@
 extract($_POST);
 include_once './conectar.php';
 $sql = "insert into contatos values (default, '$nome', '$email', '$telefone', '$idade')";
-
-$db = mysqli_select_db($connect, 'glossmakeup');
 $insert = mysqli_query($connect, $sql);
 
 include_once './topo.php';
