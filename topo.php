@@ -5,14 +5,15 @@
 <html class="no-js" lang="en"><!--<![endif]-->
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154870734-1"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155259669-1"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'UA-154870734-1');
+          gtag('config', 'UA-155259669-1');
         </script>
+
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
