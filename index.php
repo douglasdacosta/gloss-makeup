@@ -143,42 +143,42 @@ include_once './topo.php';
     <div class="container">
         <div class="col-md-10 col-sm-12 col-md-offset-1">
             <div class="row contact-form">
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Please enter your name.">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
+<form name="enviaForm" id="enviaForm" action="enviaEmail.php" method="POST" novalidate>
+    <div class="col-sm-6">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Nome *" id="name" name="name" required data-validation-required-message="Please enter your name.">
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
 
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <input type="tel" class="form-control" placeholder="Telefone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email *" id="email" name="email" required data-validation-required-message="Please enter your email address.">
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            <input type="tel" class="form-control" placeholder="Telefone *" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
 
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Assunto *" id="subject">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Sua Mensagem *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div id="success"></div>
-                    <button type="submit" class="btn btn-success btn-caption btn-contact submit pull-right">Enviar Mensagem</button>
-                </form>
+    <div class="col-sm-6">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Assunto *" id="subject" name="subject">
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <div class="form-group">
+            <textarea class="form-control" placeholder="Sua Mensagem *" id="message" name="message" required data-validation-required-message="Please enter a message."></textarea>
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
+    <div id="success"></div>
+    <button type="submit" class="btn btn-success btn-caption btn-contact submit pull-right">Enviar Mensagem</button>
+</form>
             </div>
         </div>	
     </div>
